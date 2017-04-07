@@ -56,6 +56,13 @@ namespace Warcraft3_Name_Spoof.Services
                 NameAddress = 0x00A2BC40,
                 NameOffsets = new[] {0x21C}
             });
+            m_listOfVersions.Add(new Offsets
+            {
+                GameVersion = "1.28.0",
+                BuildAddress = 0x3B4A00,
+                NameAddress = 0x00A3CC60,
+                NameOffsets = new[] {0x21C}
+            });
         }
 
         private string GetInstallPath()
